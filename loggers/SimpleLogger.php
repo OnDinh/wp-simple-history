@@ -1183,8 +1183,10 @@ class SimpleLogger {
 			'HTTP_X_FORWARDED_FOR',
 			'HTTP_X_FORWARDED',
 			'HTTP_X_CLUSTER_CLIENT_IP',
+			'HTTP_X_REAL_IP',
 			'HTTP_FORWARDED_FOR',
-			'HTTP_FORWARDED'
+			'HTTP_FORWARDED',
+			'HTTP_REAL_IP',
 		);
 
 		return $arr;
